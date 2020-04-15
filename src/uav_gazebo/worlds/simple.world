@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="uav">
+      <include>
+        <uri>model://quadrotor</uri>
+        <name>quadrotor</name>
+        <pose>0.0 0.0 0.0 0 0 0</pose>
+      </include>
+    </model>
+  </world>
+</sdf>
